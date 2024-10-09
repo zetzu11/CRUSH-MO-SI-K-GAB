@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>calculator ni seth na may na mimiss</title>
+    <title>CALC NI HTES PAUBRA NI GAB</title>
     <style>
-       body {
+        body {
             font-family: Arial, sans-serif;
-            background-color: #927f11;
+            background-color: #ff00b3;
             /* dark mode background */
         }
 
@@ -29,7 +29,7 @@
             margin-bottom: 10px;
             font-size: 15px;
             padding: 5px;
-            background-color: #b5c200;
+            background-color: #ff398c;
         }
 
         .button {
@@ -39,7 +39,7 @@
             padding: 10px;
             border: none;
             border-radius: 10px;
-            background-color: #867200;
+            background-color: #810156;
             /* dark mode background */
             color: #fff;
             /* dark mode text color */
@@ -56,6 +56,13 @@
             grid-template-columns: repeat(4, 1fr);
             gap: 10px;
             margin-top: 10px;
+        }
+
+        .flower-art {
+            text-align: center;
+            font-family: 'Courier New', monospace;
+            margin-top: 20px;
+            color: #fff;
         }
     </style>
 </head>
@@ -83,23 +90,22 @@
             <button class="button" onclick="calculate()">=</button>
             <button class="button" onclick="deleteLastChar()">DEL</button>
             <button class="button" onclick="clearDisplay()">C</button>
-            <button class="button" onclick="appendToDisplay('')"> </button>
-            <button class="button" onclick="appendToDisplay('')"> </button>
-            <button class="button" onclick="appendToDisplay('')">F</button>
-            <button class="button" onclick="appendToDisplay('')"> </button>
-            <button class="button" onclick="appendToDisplay('')">U</button>
-            <button class="button" onclick="appendToDisplay('')"> </button>
-            <button class="button" onclick="appendToDisplay('')">J</button>
             <button class="button" onclick="appendToDisplay('')">H</button>
+            <button class="button" onclick="appendToDisplay('')">I</button>
+            <button class="button" onclick="appendToDisplay('')">K</button>
             <button class="button" onclick="appendToDisplay('')">A</button>
-            <button class="button" onclick="appendToDisplay('')">N</button>
-            <button class="button" onclick="appendToDisplay('')">R</button>
-            <button class="button" onclick="appendToDisplay('')">A</button>
-            <button class="button" oneclick="appendToDisplay('')">Y</button>
+            <button class="button" onclick="appendToDisplay('')">I</button>
+            
         </div>
-    </div>
+
+        
 
     <script>
+      
+        
+        
+        
+        
         // Function to append values to the display
         function appendToDisplay(value) {
             document.getElementById("display").value += value;
@@ -119,30 +125,48 @@
         // Function to handle calculation and special messages
         function calculate() {
             const expression = document.getElementById("display").value;
-            
+
             if (expression === "1+1") {
-                document.getElementById("display").value = "CRUSH NI GABAYERON SI KAINA HAHA";
+                document.getElementById("display").value = "DID YOU MADE THE WORD NONCHALANT?";
             } else if (expression === "1+2") {
-                document.getElementById("display").value = "KULBAAN MAG CONFESS SA PERSONAL";
-            } else if (expression === "1+10") {
-                document.getElementById("display").value = "BOTOOOOOO";
-            }else if (expression === "1+3") {
-                document.getElementById("display").value = "AGI SNG GR 10";
-                
-        
+                document.getElementById("display").value = "KY BISKAN MAG INTERACT SIMO D NKO KABALO HAHA";
+            } else if (expression === "1+3") {
+                document.getElementById("display").value = "ARE YOU COMFORTABLE WHEN SOMEONE CONFESS TO YOU?";
             } else if (expression === "1+4") {
-                document.getElementById("display").value = "HAHA TORPEE";
+                document.getElementById("display").value = "THIS IS ACTUALLY AWKWARD";
+            } else if (expression === "1+5") {
+                document.getElementById("display").value = "I REALLY DONT KNOW HOW TO CONFESS HUHU";
+            } else if (expression === "1+6") {
+                document.getElementById("display").value = "I LIKE YOU SINCE FIRST GRADING KAI  ";
+            } else if (expression === "1+7") {
+                document.getElementById("display").value = "I FOUND YOUR SMILE PRETTY ";
+            } else if (expression === "1+8") {
+                document.getElementById("display").value = "IF YOU JUST KNOW HOW NERVOUS I AM RN";
+            } else if (expression === "1+9") {
+                document.getElementById("display").value = "PLEASE DONT TELL ANYONE EVEN YOUR OWN DIFF PERSONALITY";
+            } else if (expression === "1+10") {
+                document.getElementById("display").value = "THATS ALL I HAVE I CRUSH ON YOU KAI";
+            } else if (expression === "1+11") {
+                document.getElementById("display").value = "";
+            } else if (expression === "1+19") {
+                document.getElementById("display").value = "";
             } else {
                 // For any other expression, calculate the result as normal
                 try {
                     document.getElementById("display").value = eval(expression);
                 } catch (e) {
-                    document.getElementById("display").value = "HAHAHAHA GAGO!!";
+                    document.getElementById("display").value = "I LIKE YOU KAI!!";
                 }
             }
-        }
+         }
+
+        
     </script>
 
 </body>
 
 </html>
+GUIDE
+          ADD 1 TILL 10
+          EXAMPLE 1+2,1+3,1+TILL 10 
+
